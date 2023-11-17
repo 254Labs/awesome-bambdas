@@ -9,16 +9,17 @@ if(!requestResponse.hasResponse()) {
 }
 
 if(requestResponse.response().hasHeader("Content-Type")) {
-  if(!requestResponse.response().hasHeaderValue("Content-Type").containes("text/html")) {
+  if(!requestResponse.response().headerValue("Content-Type").contains("text/html")) {
     return false;
   }
 }
 
 String body = requestResponse.response().bodyToString().trim();
-boolean lokksLikeJson = body.startsWith("{") || body.startsWith("[");
+boolean looksLikeJson = body.startsWith("{") || body.startsWith("[");
 
-if(!lloksLikeJson) {
+if(!looksLikeJson) {
   return false;
 }
 
 return true;
+
