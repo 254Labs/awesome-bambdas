@@ -9,6 +9,6 @@ if(!requestResponse.hasResponse() || requestResponse.response().hasHeader("Conte
 }
 
 int declaredContentLength = Integer.parseInt(requestResponse.response().headerValue("Content-Length"));
-int realContentLength = requestResponse.response().body().Length();
+int realContentLength = requestResponse.response().body().length();
 
-return decalredContentLength != realContentLength;
+return declaredContentLength != realContentLength;
