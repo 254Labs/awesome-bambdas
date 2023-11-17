@@ -1,3 +1,9 @@
+/*
+  Author: Gareth Heyes (https://x.com/garethheyes)
+  Source: X (Twitter)
+  Init Pub. Date: Oct 18, 2023
+*/
+
 if(!requestResponse.hasResponse()) {
   return false;
 }
