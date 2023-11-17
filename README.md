@@ -9,7 +9,8 @@ First things first - [Creating, Saving, Loading, Troubleshooting](https://portsw
 # Usage
 It is simple! Just copy or download a bambda of your choice and drop it in bambda editor.
 
-![image](https://github.com/genuinemoses/bambdas-collection/assets/36628352/d06682a0-5c43-4ac4-ab2b-c0ebda9a17f4)
+![usage-diff-http-version-shadow](https://github.com/genuinemoses/bambdas-collection/assets/36628352/d6a6c2ce-d553-42ac-ae67-eb24b9752068)
+
 
 # License
 [GNU GPLv3](LICENSE)
