@@ -22,4 +22,3 @@ if(!looksLikeJson) {
 }
 
 return true;
-
