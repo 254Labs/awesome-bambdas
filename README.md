@@ -19,6 +19,10 @@ It is simple! Just copy or download a bambda of your choice and drop it in bambd
 
 ![usage-diff-http-version-shadow](https://github.com/genuinemoses/bambdas-collection/assets/36628352/d6a6c2ce-d553-42ac-ae67-eb24b9752068)
 
+# Contributing
+We welcome contributions to this library of bambda filters. Do you have an idea for a new filter, or how to improve an existing filter? Then please go ahead and open a pull request! Before you do, though, please take the time to read our [contributing guidelines](CONTRIBUTING.md).
+
+If you have any question or suggestion about this project, do not hesitate to create/open a new discussion on GitHub.
 
 # License
 [GNU GPLv3](LICENSE)
