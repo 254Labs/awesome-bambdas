@@ -2,6 +2,8 @@
   Author: Gareth Heyes (https://x.com/garethheyes)
   Source: X (Twitter)
   Init Pub. Date: Oct 18, 2023
+  Use Case: 
+    Filter for JSON endpoints with a empty or text/html MIME type
 */
 
 if(!requestResponse.hasResponse()) {
