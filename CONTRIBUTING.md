@@ -4,4 +4,4 @@ Please note that this project is released with a [Contributor Code of Conduct](C
 
 ## Adding a bambda filter
 
-Please ensure your pull request adheres to the [feature request guidelines](.github/feature_request.md).
+Please ensure your pull request adheres to the [feature request guidelines](.github/ISSUE_TEMPLATE/feature_request.md).
