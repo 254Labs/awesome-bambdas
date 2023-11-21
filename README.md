@@ -22,7 +22,7 @@ It is simple! Just copy or download a bambda of your choice and drop it in bambd
 # Contributing
 We welcome contributions to this library of bambda filters. Do you have an idea for a new filter, or how to improve an existing filter? Then please go ahead and open a pull request! Before you do, though, please take the time to read our [contributing guidelines](CONTRIBUTING.md).
 
-If you have any question or suggestion about this project, do not hesitate to create/open a new discussion on GitHub.
+If you have any question or suggestion about this project, do not hesitate to create/open a new [discussion](https://github.com/genuinemoses/awesome-bambdas/discussions) on GitHub.
 
 # License
-[GNU GPLv3](LICENSE)
+This project is licensed under [GNU GPLv3](LICENSE) that lets people do almost anything they want with the project, except distributing closed source versions.
