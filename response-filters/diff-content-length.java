@@ -2,6 +2,8 @@
   Author: James Kettle (https://x.com/albinowax)
   Source: X (Twitter)
   Init Pub. Date: Oct 17, 2023
+  Use Case: 
+    Filter for responses with incorrect Content-Length.
 */
 
 if(!requestResponse.hasResponse() || requestResponse.response().hasHeader("Content-Length")) {
