@@ -17,6 +17,8 @@ First things first - [Creating, Saving, Loading, Troubleshooting](https://portsw
 # Usage
 It is simple! Just copy or download a bambda of your choice and drop it in bambda editor.
 
+All bambdas are classified based on the method that follows the requestReponse Object. Thus, all request-based filters are placed in [request-filters](/request-filters) directory and all response-based filters are placed under [response-filters](https://github.com/254Labs/awesome-bambdas/tree/main/response-filters) directory.
+
 ![usage-diff-http-version-shadow](https://github.com/genuinemoses/bambdas-collection/assets/36628352/d6a6c2ce-d553-42ac-ae67-eb24b9752068)
 
 # Contributing
@@ -25,4 +27,4 @@ We welcome contributions to this library of bambda filters. Do you have an idea 
 If you have any question or suggestion about this project, do not hesitate to create/open a new [discussion](https://github.com/genuinemoses/awesome-bambdas/discussions) on GitHub.
 
 # License
-This project is licensed under [GNU GPLv3](LICENSE) that lets people do almost anything they want with the project, except distributing closed source versions.
+This project is licensed under [GNU GPLv3](LICENSE) which lets people do almost anything they want with the project, except distributing closed-source versions.
