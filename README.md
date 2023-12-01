@@ -30,5 +30,5 @@ If you have any question or suggestion about this project, do not hesitate to cr
 This project is licensed under [GNU GPLv3](LICENSE) which lets people do almost anything they want with the project, except distributing closed-source versions.
 
 # Similar Projects
-[PortSwigger - bambdas](https://github.com/PortSwigger/bambdas)
+[PortSwigger - bambdas](https://github.com/PortSwigger/bambdas) <br/>
 [Burpsuite Bambda Filters](https://github.com/prodigysml/burpsuite-bambda-filters)
