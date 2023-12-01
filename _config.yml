@@ -1,0 +1,83 @@
+title: Awesome Bambdas
+author: 254Labs & Community
+description: >-
+  A collection of Bambdas (Burp Suite's Lambdas)
+url: https://254Labs.github.io
+baseurl: /awesome-bambdas
+repository: 254Labs/awesome-bambdas
+
+# general
+encoding: utf-8
+permalink: pretty
+
+destination: ./_site
+incremental: false
+regenerate: true
+
+exclude:
+  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+
+# markdown
+markdown: kramdown
+kramdown:
+  auto_ids: true
+  input: GFM
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  toc_levels: 1..6
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: Java
+    guess_lang: false
+    line_numers: false
+
+
+# theme options
+theme: just-the-docs
+favicon_ico: /assets/images/favicon.ico
+
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 2
+  preview_words_before: 3
+  preview_words_after: 3
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+nav_external_links:
+  - title: API Documentation
+    url: https://portswigger.github.io/burp-extensions-montoya-api/javadoc/burp/api/montoya/proxy/ProxyHttpRequestResponse.html
+    hide_icon: false
+    opens_in_new_tab: true
+  - title: Submit your Bambda
+    url: https://github.com/254Labs/awesome-bambdas/blob/main/CONTRIBUTING.md
+    hide_icon: false 
+    opens_in_new_tab: true
+
+enable_copy_code_button: true
+heading_anchors: true
+back_to_top: false
+
+gh_edit_link: true
+gh_edit_link_text: "View on GitHub"
+gh_edit_repository: "https://github.com/254Labs/awesome-bambdas"
+gh_edit_branch: "main"
+gh_edit_view_mode: "tree"
+
+# plugin settings
+readme_index:
+  enabled: true
+  remove_originals: true
+  with_frontmatter: true
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-include-cache
+  - jekyll-readme-index
