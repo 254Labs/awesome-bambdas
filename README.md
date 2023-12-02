@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Awesome-Bambdas
 permalink: /
 nav_exclude: true
 search_exclude: true
