@@ -37,7 +37,8 @@ kramdown:
 
 
 # theme options
-theme: just-the-docs
+# theme: just-the-docs
+remote-theme: just-the-docs/just-the-docs
 favicon_ico: /assets/images/favicon.ico
 
 search_enabled: true
