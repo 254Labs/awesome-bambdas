@@ -1,0 +1,19 @@
+---
+title: <title of your Bambda>
+parent: <category [Request Bambdas, Response Bambdas, Utilities]
+layout: default # DO NOT CHANGE
+has_toc: false # DO NOT CHANGE 
+has_children: false # DO NOT CHANGE
+---
+
+```java
+/*
+  Author: <Your name/handle> (<A link to you>)
+  Source: <Where did you first post this Bambda>
+  Init Pub. Date: <Initial publish date>
+  Use Case:
+   <Describe the use case>
+*/
+
+// Put your Java code here
+```
