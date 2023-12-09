@@ -3,6 +3,7 @@ name: Build and Deploy Jekyll
 on:
   push:
     branches:
+      - main
       - gh-pages
 
 jobs:
