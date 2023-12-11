@@ -1,17 +1,18 @@
 name: Build and Deploy Jekyll
 
 on:
+  workflow_dispatch:
   push:
     branches:
-      - gh-pages
+      - main
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
+    
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Set up Ruby
       uses: ruby/setup-ruby@v2
@@ -27,8 +28,8 @@ jobs:
       run: bundle exec jekyll build
 
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+      uses: actions/deploy-pages@v1
       with:
-        deploy_key: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_site
-        enable_jekyll: true
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        source: ./_site/
+        public: true
