@@ -38,9 +38,17 @@ jobs:
     - name: Build site
       run: bundle exec jekyll build --verbose --trace
 
+    - name: Upload artifacts
+      uses: actions/upload-pages-artifact@v2
+      with:
+        path: ./_site
+        name: github-pages
+        retention-days: 1
+
     - name: Deploy to Github Pages
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         branch: gh-pages
         folder: _site/
         token:  ${{ secrets.GITHUB_TOKEN }}
+
