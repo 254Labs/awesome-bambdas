@@ -1,24 +1,47 @@
 name: Build and Deploy Jekyll
 
 on:
-  workflow_dispatch:
   push:
-    branches:
-      - gh-pages
+    branches: ["main"]
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Set up Ruby
-      uses: ruby/setup-ruby@v2
+      uses: ruby/setup-ruby@v1
       with:
         ruby-version: 2.7
+        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+        cache-version: 0 # Increment this number if you need to re-download cached gems
 
+    - name: Clone target branch
+      run: |
+        REMOTE_BRANCH="${REMOTE_BRANCH:-gh-pages}"
+        REMOTE_REPO="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+
+        echo "Publishing to ${GITHUB_REPOSITORY} on branch ${REMOTE_BRANCH}"
+        rm -rf _site/
+        git clone --depth=1 --branch="${REMOTE_BRANCH}" --single-branch --no-checkout "${REMOTE_REPO}" _site/
+        
+    - name: Build site
+      run: bundle exec jekyll build --verbose --trace
+        
     - name: Install dependencies
       run: |
         gem install bundler
@@ -27,9 +50,9 @@ jobs:
     - name: Build Jekyll site
       run: bundle exec jekyll build
 
-    - name: Deploy to GitHub Pages
-      uses: actions/deploy-pages@v1
+    - name: Deploy to Github Pages
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        source: ./_site/
-        public: true
+        branch: gh-pages
+        folder: docs/_site/
+        token:  ${{ secrets.GITHUB_TOKEN }}
