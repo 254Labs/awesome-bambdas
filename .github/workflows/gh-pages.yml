@@ -29,17 +29,14 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: 2.7
-       
-    - name: Build site
-      run: bundle exec jekyll build --verbose --trace
-        
+
     - name: Install dependencies
       run: |
         gem install bundler
         bundle install
-
-    - name: Build Jekyll site
-      run: bundle exec jekyll build
+        
+    - name: Build site
+      run: bundle exec jekyll build --verbose --trace
 
     - name: Deploy to Github Pages
       uses: JamesIves/github-pages-deploy-action@v4
