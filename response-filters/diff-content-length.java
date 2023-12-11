@@ -6,7 +6,7 @@
     Filter for responses with incorrect Content-Length.
 */
 
-if(!requestResponse.hasResponse() || requestResponse.response().hasHeader("Content-Length")) {
+if(!requestResponse.hasResponse() || !requestResponse.response().hasHeader("Content-Length")) {
   return false;
 }
 
