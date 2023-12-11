@@ -20,6 +20,6 @@ if(!requestResponse.hasResponse() && requestResponse.response().statusCode() != 
 
 var response = requestResponse.response();
 var bodyLength = response.body().toString().toLowerCase().replaceAll("<a.*</a>", "").length();
-var numberofHrefs =  response.body().countMatches("href=", false);
+var numberOfHrefs =  response.body().countMatches("href=", false);
 
 return (bodyLength > 1000 || numberOfHrefs > 1);
