@@ -10,4 +10,4 @@ if(requestResponse.mimeType().equals(MimeType.JSON)) {
   return this.utilities().htmlUtils().decode(requestResponse.response().bodyToString()).contains("uid");
 }
 
-return true;
+return false;
