@@ -1,6 +1,7 @@
-# awesome-bambdas
+# Awesome-Bambdas
 ![GitHub Repo stars](https://img.shields.io/github/stars/254Labs/awesome-bambdas) ![GitHub](https://img.shields.io/github/license/254Labs/awesome-bambdas)
-[![Build and Deploy Jekyll Site](https://github.com/254Labs/awesome-bambdas/actions/workflows/gh-pages.yml/badge.svg?branch=gh-pages&event=status)](https://github.com/254Labs/awesome-bambdas/actions/workflows/gh-pages.yml)
+[![Build and Deploy Jekyll Site](https://github.com/254Labs/awesome-bambdas/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/254Labs/awesome-bambdas/actions/workflows/gh-pages.yml)
+[![All Contributors](https://img.shields.io/github/all-contributors/254Labs/awesome-bambdas?color=ee8449&style=flat-square)](#contributors)
 
 A collection of Bambdas (Burp Suite's Lambdas) <br/>
 Switch to `Bambda mode` now! 🤖
@@ -31,7 +32,15 @@ We welcome contributions to this library of Bambdas. Do you have an idea for a n
 If you have any question or suggestion about this project, do not hesitate to create/open a new [discussion](https://github.com/genuinemoses/awesome-bambdas/discussions) on GitHub.
 
 ## Contributors
-![GitHub Contributors Image](https://contrib.rocks/image?repo=254Labs/awesome-bambdas)
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 # License
 This project is licensed under [GNU GPLv3](LICENSE) which lets people do almost anything they want with the project, except distributing closed-source versions.
