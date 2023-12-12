@@ -64,6 +64,11 @@ jobs:
     needs: [build, deploy]
     
     steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4.1.1
+      with:
+        ref: "main"
+        
     - name: Set up Python
       uses: actions/setup-python@v3
       with:
