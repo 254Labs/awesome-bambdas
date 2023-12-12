@@ -1,6 +1,6 @@
 # awesome-bambdas
 ![GitHub Repo stars](https://img.shields.io/github/stars/254Labs/awesome-bambdas) ![GitHub](https://img.shields.io/github/license/254Labs/awesome-bambdas)
-[![pages-build-deployment](https://github.com/254Labs/awesome-bambdas/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/254Labs/awesome-bambdas/actions/workflows/pages/pages-build-deployment)
+[![Build and Deploy Jekyll Site](https://github.com/254Labs/awesome-bambdas/actions/workflows/gh-pages.yml/badge.svg?branch=gh-pages)](https://github.com/254Labs/awesome-bambdas/actions/workflows/gh-pages.yml)
 
 A collection of Bambdas (Burp Suite's Lambdas) <br/>
 Switch to `Bambda mode` now! 🤖
