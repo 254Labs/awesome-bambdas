@@ -46,7 +46,6 @@ jobs:
       with:
         path: ./_site
         name: github-pages
-        retention-days: 1
         
   deploy:
     runs-on: ubuntu-latest
