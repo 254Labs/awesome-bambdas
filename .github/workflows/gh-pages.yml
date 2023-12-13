@@ -1,8 +1,6 @@
 name: Build and Deploy Jekyll Site
 
 on:
-  push:
-    branches: ["main", "gh-pages"]
   workflow_dispatch:
 
 permissions:
