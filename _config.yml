@@ -6,23 +6,20 @@ url: https://254Labs.github.io
 baseurl: /awesome-bambdas
 repository: 254Labs/awesome-bambdas
 
-# general
-encoding: utf-8
+theme: just-the-docs
+favicon_ico: /assets/images/favicon.ico
 permalink: pretty
-
 destination: ./_site
 incremental: false
 regenerate: true
 
 exclude:
-  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
   - Gemfile
   - Gemfile.lock
 
-# markdown
 markdown: kramdown
 kramdown:
   auto_ids: true
@@ -34,12 +31,6 @@ kramdown:
     default_lang: Java
     guess_lang: false
     line_numers: false
-
-
-# theme options
-theme: just-the-docs
-# remote-theme: just-the-docs/just-the-docs
-favicon_ico: /assets/images/favicon.ico
 
 search_enabled: true
 search:
@@ -68,7 +59,7 @@ back_to_top: false
 gh_edit_link: true
 gh_edit_link_text: "View on GitHub"
 gh_edit_repository: "https://github.com/254Labs/awesome-bambdas"
-gh_edit_branch: "main"
+gh_edit_branch: "gh-pages"
 gh_edit_view_mode: "tree"
 
 # plugin settings
