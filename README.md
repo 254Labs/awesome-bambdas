@@ -31,17 +31,6 @@ We welcome contributions to this library of Bambdas. Do you have an idea for a n
 
 If you have any question or suggestion about this project, do not hesitate to create/open a new [discussion](https://github.com/genuinemoses/awesome-bambdas/discussions) on GitHub.
 
-## Contributors
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
 # License
 This project is licensed under [GNU GPLv3](LICENSE) which lets people do almost anything they want with the project, except distributing closed-source versions.
 
