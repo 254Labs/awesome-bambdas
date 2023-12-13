@@ -1,7 +1,6 @@
 # Awesome-Bambdas
 ![GitHub Repo stars](https://img.shields.io/github/stars/254Labs/awesome-bambdas) ![GitHub](https://img.shields.io/github/license/254Labs/awesome-bambdas)
 [![Build and Deploy Jekyll Site](https://github.com/254Labs/awesome-bambdas/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/254Labs/awesome-bambdas/actions/workflows/gh-pages.yml)
-[![All Contributors](https://img.shields.io/github/all-contributors/254Labs/awesome-bambdas?color=ee8449&style=flat-square)](#contributors)
 
 A collection of Bambdas (Burp Suite's Lambdas) <br/>
 Switch to `Bambda mode` now! 🤖
@@ -28,6 +27,8 @@ All bambdas are classified based on the method that follows the requestReponse O
 
 # Contributing
 We welcome contributions to this library of Bambdas. Do you have an idea for a new filter, or how to improve an existing filter? Then please go ahead and open a pull request! Before you do, though, please take the time to read our [contributing guidelines](CONTRIBUTING.md).
+
+All credits to the contributors of the project can be found at [CONTRIBUTORS.txt](CONTRIBUTORS.txt).
 
 If you have any question or suggestion about this project, do not hesitate to create/open a new [discussion](https://github.com/genuinemoses/awesome-bambdas/discussions) on GitHub.
 
