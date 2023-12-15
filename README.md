@@ -1,6 +1,9 @@
 # Awesome-Bambdas
-![GitHub Repo stars](https://img.shields.io/github/stars/254Labs/awesome-bambdas) ![GitHub](https://img.shields.io/github/license/254Labs/awesome-bambdas)
-[![Build and Deploy Jekyll Site](https://github.com/254Labs/awesome-bambdas/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/254Labs/awesome-bambdas/actions/workflows/gh-pages.yml)
+![GH Pages Build and Deployment](https://img.shields.io/github/actions/workflow/status/254Labs/awesome-bambdas/gh-pages.yml)
+![GitHub Repo stars](https://img.shields.io/github/stars/254Labs/awesome-bambdas)
+![GitHub](https://img.shields.io/github/license/254Labs/awesome-bambdas)<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/github/all-contributors/254Labs/awesome-bambdas?color=ee8449)](CONTRIBUTORS.md)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 A collection of Bambdas (Burp Suite's Lambdas) <br/>
 Switch to `Bambda mode` now! 🤖
