@@ -6,7 +6,7 @@
     Filter for responses that contain Cache header to probe for Cache-Poisioning vulnerabilities.
 */
 
-if(!requestResponse.hasResponse())) {
+if(!requestResponse.hasResponse()) {
   return false;
 }
 
